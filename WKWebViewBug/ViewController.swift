@@ -44,7 +44,8 @@ class ViewController: NSViewController {
 
 extension ViewController: WKNavigationDelegate {
   func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
-    // You'll hit this if you load a bundle file, and try to load a local file afterword.
+    // You'll hit this if you load the bundle file, and then try to load a local file (outside the bundle directory).
+    // You'll also hit this if you load a local file, and then try to load a different local file that is not in the same directory.
     print("Navigation failed with error: \(error)")
   }
 

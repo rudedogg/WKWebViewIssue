@@ -719,8 +719,8 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fx2-kH-ROm">
-                                <rect key="frame" x="321" y="235" width="145" height="32"/>
-                                <buttonCell key="cell" type="push" title="Load local file (2)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Lpi-0H-VCY">
+                                <rect key="frame" x="342" y="235" width="124" height="32"/>
+                                <buttonCell key="cell" type="push" title="Load local file" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Lpi-0H-VCY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -729,8 +729,8 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LsJ-1n-gyb">
-                                <rect key="frame" x="14" y="235" width="131" height="32"/>
-                                <buttonCell key="cell" type="push" title="Bundle load (1)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lqf-pg-Qnb">
+                                <rect key="frame" x="14" y="235" width="137" height="32"/>
+                                <buttonCell key="cell" type="push" title="Load bundle file" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lqf-pg-Qnb">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
